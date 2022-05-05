@@ -10,7 +10,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/gorilla/mux"
-	"github.com/kaysush/protobuf-demo/json/echojson"
+	"github.com/sonyafenge/protobuf-demo/json/echojson"
 	"github.com/sonyafenge/protobuf-demo/proto/echo"
 )
 

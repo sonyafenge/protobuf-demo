@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/kaysush/protobuf-demo/json/echojson"
+	"github.com/sonyafenge/protobuf-demo/json/echojson"
 	"github.com/sonyafenge/protobuf-demo/proto/echo"
 )
 
