@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"protobuf-demo/proto/echo" //<-- Take a note that I've created my code folder in $GOPATH/src
+	"github.com/sonyafenge/protobuf-demo/proto/echo" //<-- Take a note that I've created my code folder in $GOPATH/src
 
 	"github.com/golang/protobuf/proto"
 )
