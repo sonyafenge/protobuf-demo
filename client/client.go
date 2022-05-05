@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/sonyafenge/protobuf-demo/json/echojson"
 	"github.com/sonyafenge/protobuf-demo/proto/echo"
+	"github.com/sonyafenge/protobuf-demo/proto/echojson"
 )
 
 func makeRequest(request *echo.EchoRequest) *echo.EchoResponse {

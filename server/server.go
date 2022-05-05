@@ -10,8 +10,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/gorilla/mux"
-	"github.com/sonyafenge/protobuf-demo/json/echojson"
 	"github.com/sonyafenge/protobuf-demo/proto/echo"
+	"github.com/sonyafenge/protobuf-demo/proto/echojson"
 )
 
 func Echo(resp http.ResponseWriter, req *http.Request) {
