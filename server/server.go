@@ -16,7 +16,7 @@ import (
 
 func Echo(resp http.ResponseWriter, req *http.Request) {
 	contentLength := req.ContentLength
-	fmt.Printf("Content Length Received : %v\n", contentLength)
+	fmt.Printf("Content echo Length Received : %v\n", contentLength)
 	request := &echo.EchoRequest{}
 	data, err := ioutil.ReadAll(req.Body)
 	if err != nil {
@@ -35,7 +35,7 @@ func Echo(resp http.ResponseWriter, req *http.Request) {
 
 func EchoJson(resp http.ResponseWriter, req *http.Request) {
 	contentLength := req.ContentLength
-	fmt.Printf("Content Length Received : %v\n", contentLength)
+	fmt.Printf("Content json Length Received : %v\n", contentLength)
 	request := &echojson.EchoJsonRequest{}
 	data, err := ioutil.ReadAll(req.Body)
 	if err != nil {

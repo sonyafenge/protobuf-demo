@@ -64,8 +64,8 @@ func main() {
 
 	var totalPBTime, totalJSONTime int64
 	requestPb := &echo.EchoRequest{Name: "Sushil"}
-	for i := 1; i <= 1000; i++ {
-		fmt.Printf("Sending request %v\n", i)
+	for i := 1; i <= 10; i++ {
+		fmt.Printf("Sending echo request %v\n", i)
 		startTime := time.Now()
 		makeRequest(requestPb)
 		elapsed := time.Since(startTime)
@@ -74,8 +74,8 @@ func main() {
 
 	requestJson := &echojson.EchoJsonRequest{Name: "Sushil"}
 
-	for i := 1; i <= 1000; i++ {
-		fmt.Printf("Sending request %v\n", i)
+	for i := 1; i <= 10; i++ {
+		fmt.Printf("Sending json request %v\n", i)
 		startTime := time.Now()
 		makeJsonRequest(requestJson)
 		elapsed := time.Since(startTime)
